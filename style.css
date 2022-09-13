@@ -11,10 +11,18 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 45px 35px 100px;
-    color: #f9faf8;
-    font-size: 24px;
+    color: #e5e7eb;
+    font-size: 18px;
    
 
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+    justify-items: flex-start;
+    font-weight: bolder;
+    margin-right: 150px;
 }
 
 .menu li {
@@ -53,6 +61,33 @@ html, body {
 }
 
 .reports {
+    height: 70px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.feedback {
+    display: flex;
+    height: 80px;
+    width: 60px;
+    align-items: center;
+    border: 2px black solid;
+
+}
+
+.edison {
+    background-color:#e5e7eb ;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
