@@ -1,93 +1,138 @@
-html, body {
-    margin: 0 ;
-    padding: 0;
+body, html {
+    padding: 0px;
+    margin: 0px;
+
 }
 
 .header {
-    border: 2px red solid;
-    background-color: #1f2937;
-    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 45px 35px 100px;
-    color: #e5e7eb;
-    font-size: 18px;
-   
+    background-color: #1f2937;
+    padding-left: 200px;
+    margin-bottom: 0px;
 
 }
 
+.logo {
+    height: 80px;
+    width: auto;
+}
+
 .header p {
-    font-size: 24px;
+    margin-left: -400px;
     color: #f9faf8;
-    justify-items: flex-start;
-    font-weight: bolder;
-    margin-right: 150px;
+    font-size: 24px;
+    
+}
+
+.menu {
+    padding-right: 270px;
 }
 
 .menu li {
     display: inline;
     margin: 0 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+    
 }
-
-.logo {
-    width: 35px;
-    height: 35px;
-}
-
-.container {
-    border: 2px black solid;
-    height: 150px;
+.hero {
     background-color: #1f2937;
+    padding-right: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 45px 35px 100px;
-    
+    padding-left: 200px;
+    padding-top: 40px;
 
 }
-.item {
-    border: 2px white solid;
-    color: white;
-    height: 150px;
-    width: 100%;
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+    display: block;
+    margin-right: 30px;
+}
+
+.hero h3 {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: block;
+}
+
+.image {
+    height: auto;
+    width: 180px
+}
+
+.releases {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     
+}
+
+.releases h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.releases h3{
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.releases-image {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 270px;
+}
+
+.house-text {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 270px;
 }
 
 .text {
-    display: flex;
-    height: 73px;
+    height: 130px;
+    width: 190px;
+    
 }
 
-.reports {
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.clients {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.feedback {
-    display: flex;
-    height: 80px;
-    width: 60px;
-    align-items: center;
-    border: 2px black solid;
-
-}
-
-.edison {
+.impact-text {
     background-color:#e5e7eb ;
-    font-size: 36px;
+    font-size: 18px;
     font-style: italic;
     color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 270px;
+    text-align: justify;
+}
+
+.action {
+    padding-left: 200px;
+    padding-right: 270px;
+}
+.box {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.box h1 {
+    font-size: 26px;
+    padding-top: 15px;
+}
+
+.box h3 {
+    font-size: 18px;
 }
