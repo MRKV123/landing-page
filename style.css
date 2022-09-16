@@ -1,4 +1,4 @@
-body, html {
+body, html, h1, h3 {
     padding: 0px;
     margin: 0px;
 
@@ -42,7 +42,7 @@ body, html {
     padding-right: 150px;
     display: flex;
     padding-left: 200px;
-    padding-top: 40px;
+    padding-top: 100px;
 
 }
 
@@ -71,6 +71,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
     
 }
 
@@ -84,6 +85,7 @@ body, html {
     font-size: 18px;
     color: #1f2937;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .releases-image {
@@ -91,6 +93,7 @@ body, html {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 270px;
+    padding-top: 40px;
 }
 
 .house-text {
@@ -122,17 +125,55 @@ body, html {
 .action {
     padding-left: 200px;
     padding-right: 270px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6%;
 }
 .box {
     background-color: #3882f6;
     color: #f9faf8;
+
 }
 
 .box h1 {
     font-size: 26px;
-    padding-top: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
 }
 
 .box h3 {
     font-size: 18px;
+    padding-bottom: 4px;
+    padding-left: 28px;
+    font-weight: 600;
+
 }
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 1px solid;
+    border-radius: 6%;
+    font-weight: 600;
+}
+
+.setter {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+   
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
