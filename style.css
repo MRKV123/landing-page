@@ -23,6 +23,7 @@ body, html, h1, h3 {
     margin-left: -400px;
     color: #f9faf8;
     font-size: 24px;
+    cursor:pointer
     
 }
 
@@ -94,6 +95,7 @@ body, html, h1, h3 {
     padding-left: 200px;
     padding-right: 270px;
     padding-top: 40px;
+    cursor: pointer;
 }
 
 .house-text {
@@ -120,13 +122,15 @@ body, html, h1, h3 {
     padding-left: 200px;
     padding-right: 270px;
     text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .action {
     padding-left: 200px;
     padding-right: 270px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
     border-radius: 6%;
@@ -158,6 +162,7 @@ body, html, h1, h3 {
     border: #f9faf8 1px solid;
     border-radius: 6%;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .setter {
