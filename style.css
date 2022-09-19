@@ -17,14 +17,22 @@ body, html, h1, h3 {
 .logo {
     height: 80px;
     width: auto;
+    border-radius: 100%;
 }
 
 .header p {
-    margin-left: -400px;
+    margin-left: -385px;
     color: #f9faf8;
     font-size: 24px;
     cursor:pointer
     
+}
+
+.himage {
+    width: 350px;
+    height: auto;
+    border-radius: 14%;
+    border: solid 4px #3882f6;
 }
 
 .menu {
@@ -36,19 +44,22 @@ body, html, h1, h3 {
     margin: 0 10px;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 600;
     
 }
 .hero {
     background-color: #1f2937;
-    padding-right: 150px;
+    padding-right: 265px;
     display: flex;
     padding-left: 200px;
     padding-top: 100px;
+    padding-bottom: 70px;   
+    justify-content: space-between;
 
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: bolder;
     color: #f9faf8;
     margin: 0px;
@@ -62,9 +73,11 @@ body, html, h1, h3 {
     display: block;
 }
 
-.image {
+.house {
     height: auto;
-    width: 180px
+    width: 180px;
+    border: #3882f6 4px solid;
+    border-radius: 12%;
 }
 
 .releases {
@@ -103,11 +116,15 @@ body, html, h1, h3 {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 270px;
+
 }
 
 .text {
+    padding-top: 10px;
     height: 130px;
     width: 190px;
+    display: flex;
+   justify-content: center;
     
 }
 
@@ -116,27 +133,42 @@ body, html, h1, h3 {
     font-size: 18px;
     font-style: italic;
     color: #1f2937;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 200px;
     padding-right: 270px;
     text-align: justify;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.impact-text h3 {
+    padding-left: 700px;
+    padding-top: 10px;
+
 }
 
 .action {
-    padding-left: 200px;
-    padding-right: 270px;
-    padding-top: 60px;
-    padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
     border-radius: 6%;
-}
-.box {
     background-color: #3882f6;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 270px;
+    margin-bottom: 70px;
+    border-radius: 4%;
+    border-style: hidden;
+}
+
+.action button {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.box {
     color: #f9faf8;
 
 }
@@ -159,10 +191,11 @@ body, html, h1, h3 {
 .button {
     background-color: #3882f6;
     color: #f9faf8;
-    border: #f9faf8 1px solid;
-    border-radius: 6%;
+    border: #f9faf8 2px solid;
+    border-radius: 14%;
     font-weight: 600;
     cursor: pointer;
+    padding: 8px 18px 8px 18px;
 }
 
 .setter {
